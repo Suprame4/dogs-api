@@ -7,7 +7,8 @@
     "seed": "node db/seed.js",
     "start": "node index.js",
     "start-dev": "nodemon index.js",
-    "test": "jest --watch-all"
+    "test": "jest --watch-all",
+    "test-start": "node server.js"
   },
   "keywords": [],
   "author": "",
